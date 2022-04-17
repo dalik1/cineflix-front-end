@@ -1,0 +1,58 @@
+body{
+    background-color: #141414;
+}
+div.A{
+    display: inline-block;
+}
+img{
+    width: 32.5vw;
+    
+}
+#cartaz{
+    background-size: cover;
+    height: 10vh;
+}
+#logo{
+    font-size: medium;
+    font-weight: bold;
+    width: 50px;
+    height: 35px;
+    position: relative;
+    left: 5vh;
+    top: 5vh;
+}
+#loguin{
+    color: wheat;
+    width: 50px;
+    height: 35px;
+    position: relative;
+    left: 87%;
+    top: 5vh;
+    background-color: #E20813;
+    padding: 7px 17px;
+    font-weight: 400;
+    border-radius: 2px;
+}
+a.categoria{
+    text-decoration: none;
+    color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+}
+div.generos{
+    display: inline-block;
+    background-color: black;
+    height: 180px;
+    width: 32.5vw;
+}
+h1.gen{
+    color: #fff; 
+    text-align: center;
+    font-size: 30px;
+}
+h1{
+    margin-left: 15px;
+    font-size: 2vw;
+}
+img{
+    height: 30vh;
+}

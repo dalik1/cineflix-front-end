@@ -25,7 +25,7 @@ li.header{
     height: 35px;
     position: relative;
     left: 5vh;
-    top: 5vh;
+    top: 3.5vh;
 }
 #loguin{
     color: wheat;
@@ -33,7 +33,7 @@ li.header{
     height: 35px;
     position: relative;
     left: 87%;
-    top: -1vh;
+    top: -6.5vh;
     background-color: #E20813;
     padding: 7px 17px;
     font-weight: 400;
@@ -59,14 +59,10 @@ h1{
     margin-left: 15px;
     font-size: 2vw;
 }
-img#lupa:oncl{
-    height: 20px;
-    width: 20px;
-
-}
-img#lupa >div#input{
-    display: none;
-}
-img#lupa >div#input:hover{
-    display: inline-block;
+#lupa{
+    border-radius: 5px;
+    border: 1px #2b2b2b;
+    position: relative;
+    left: 67vw;
+    top: -2.1vw;
 }

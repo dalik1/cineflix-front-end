@@ -4,19 +4,15 @@ body{
 div.A{
     display: inline-block;
 }
-li{
+img{
+    width: 32.5vw;
+}
+li.header{
     color: #fff;
     font-weight: 800;
     display: inline-block;
     margin-left: 5px;
     margin-right: 5px;
-}
-.fot{
-    text-align: center;
-}
-img{
-    max-width: 31vw;
-    margin: 1vw;
 }
 #cartaz{
     background-size: cover;
@@ -36,8 +32,8 @@ img{
     width: 50px;
     height: 35px;
     position: relative;
-    left: 90vw;
-    top: -2vh;
+    left: 87%;
+    top: -1vh;
     background-color: #E20813;
     padding: 7px 17px;
     font-weight: 400;
@@ -51,9 +47,8 @@ a.categoria{
 div.generos{
     display: inline-block;
     background-color: black;
-    margin: 0.8vw;
-    height: 192px;
-    width: 31vw;
+    height: 180px;
+    width: 32.5vw;
 }
 h1.gen{
     color: #fff; 
@@ -63,4 +58,15 @@ h1.gen{
 h1{
     margin-left: 15px;
     font-size: 2vw;
+}
+img#lupa:oncl{
+    height: 20px;
+    width: 20px;
+
+}
+img#lupa >div#input{
+    display: none;
+}
+img#lupa >div#input:hover{
+    display: inline-block;
 }

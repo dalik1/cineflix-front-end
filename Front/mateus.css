@@ -1,6 +1,14 @@
 body{
     background-color: #141414;
 }
+header{
+    height: 70px;
+    border-bottom: 1px solid rgb(102, 102, 102);
+    border-right: 1px solid rgb(102, 102, 102);
+    border-left: 1px solid rgb(102, 102, 102);
+    border-radius: 0px 0px 10px 10px;
+    background-color: #222222;
+}
 div.A{
     display: inline-block;
 }
@@ -10,13 +18,7 @@ img{
 li.header{
     color: #fff;
     font-weight: 800;
-    display: inline-block;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-#cartaz{
-    background-size: cover;
-    height: 10vh;
+    font-size: 20px;
 }
 #logo{
     font-size: medium;
@@ -24,8 +26,8 @@ li.header{
     width: 50px;
     height: 35px;
     position: relative;
-    left: 5vh;
-    top: 3.5vh;
+    left: 47%;
+    top: 0.5vh;
 }
 #loguin{
     color: wheat;
@@ -64,5 +66,30 @@ h1{
     border: 1px #2b2b2b;
     position: relative;
     left: 67vw;
-    top: -2.1vw;
+    top: -2.2vw;
+}
+img#menu{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 20px;
+    top: 3vh;
+}
+nav#aba{
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    height: 18%;
+    width: 30%;
+    background-color: #222222;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(-100%);
+}
+div#menu>nav:hover{
+    transform: translateX(0%);
+    border: 1px solid #666666;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 3px 3px 5px #0e0e0e;
 }

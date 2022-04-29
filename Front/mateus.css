@@ -45,7 +45,7 @@ div#menu>nav:hover{
     box-shadow: 3px 3px 5px #0e0e0e;
     transition: 0.5s;
 }
-img#menu{
+img.menu{
     width: 20px;
     height: 20px;
     position: relative;

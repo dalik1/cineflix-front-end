@@ -22,37 +22,63 @@ header{
     border-radius: 0px 0px 10px 10px;
     background-color: #222222;
 }
+input{
+    display: none;
+}
 nav#aba{
     position: absolute;
-    top: 8px;
+    top: 0px;
     left: 0px;
-    height: 18%;
-    width: 30%;
+    width: 25%;
     background-color: #222222;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    transform: translateX(-180%);
+    transform: translateX(-100%);
     transition: 0.5s;
 }
-div#menu>nav:active{
+#menu label{
+    width: 70px;
+    padding:23px;
+    background-color: #222222;
+    display: block;
+    color: #fff;
+    cursor:pointer;
+    text-align: center;
+    transition: 0.5s;
+}
+div#menu>#tabs:checked ~ label{
     transform: translateX(0%);
     width: 30%;
+    height: 40px;
     border: 1px solid #666666;
     border-radius: 0px 10px 10px 0px;
     box-shadow: 3px 3px 5px #0e0e0e;
-    transition: 1s;
+    transition: 0.5s;
 }
-img#menu{
+div#menu a{
+    position: relative;
+    transform: translateX(-100%);
+    width: 30%;
+    height: 40px;
+    margin-left: 100px;
+    transition: 0.5s;
+}
+img#menui{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 4vh;
+    top: 5vw;
+}
+img#menui{
     width: 20px;
     height: 20px;
     position: relative;
-    left: 83vh;
-    top: -12vw;
+    left: 5vh;
+    top: -3.5vw;
 }
-nav#aba>img#menu:visited{
-    display: none;
-}
+
 #lupa{
     border-radius: 5px;
     border: 1px #2b2b2b;
@@ -66,7 +92,7 @@ nav#aba>img#menu:visited{
     height: 35px;
     position: relative;
     left: 87%;
-    top: -6.5vh;
+    top: -11vh;
     background-color: #E20813;
     padding: 7px 17px;
     font-weight: 400;
@@ -79,7 +105,7 @@ nav#aba>img#menu:visited{
     height: 35px;
     position: relative;
     left: 47%;
-    top: 0.5vh;
+    top: -7vh;
 }
 li.header{
     list-style: none;
@@ -90,39 +116,7 @@ li.header{
 }
 /*main*/
 
-#noticias{
-    width: 90%;
-    height: 500px;
-    background-color: #fff;
-}
-.nav_tabs{
-    width: 600px;
-    height: 400px;
-    margin: 100px auto;
-    color: #888;
-    position: relative;
-}
-.nav_tabs >ul{
-    list-style: none;
-}
-.nav_tabs > ul > li{
-    float: left;
-}
-.nav_tabs >ul>li>label{
-    width: 100px;
-    padding: 25px;
-    background-color: #363b48;
-    display: block;
-    color: #fff;
-    cursor:pointer;
-    text-align: center;
-}
-.rd_tabs:checked ~ label{
-    background-color: #888;
-}
-.rd_tabs{
-    display: none;
-}
+
 
 div.generos{
     display: inline-block;

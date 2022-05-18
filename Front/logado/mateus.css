@@ -2,6 +2,7 @@
 /*global*/
 body{
     background-color: #141414;
+    overflow-x: hidden;
 }
 *{
     margin: 0;
@@ -16,10 +17,9 @@ img{
 /*header*/
 header{
     height: 70px;
-    display: flexbox;
-    border-bottom: 1px solid rgb(102, 102, 102);
-    border-right: 1px solid rgb(102, 102, 102);
-    border-left: 1px solid rgb(102, 102, 102);
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
     border-radius: 0px 0px 10px 10px;
     background-color: #222222;
 }
@@ -29,7 +29,10 @@ nav#aba{
     top: 3px;
     left: 0px;
     width: 25%;
-    border: 1px solid #666666;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #222222;
+    border: 1px solid #fff;
+    align-items: center;
     transition: 1s;
 }
 #aba:hover{
@@ -37,9 +40,8 @@ nav#aba{
     transform: translateX(0%);
     width: 25%;
     background-color: #222222;
-    align-items: center;
-    border: 1px solid #666666;
-    border-radius: 0px 0px 5px 0px;
+    align-items: stretch;
+    border: 1px solid #fff;
     box-shadow: 3px 3px 5px #0e0e0e;
     transition: 1s;
 }
@@ -50,29 +52,43 @@ img#iconem{
     top: 20px;
     left: 39vh;
 }
-#aba a{
-    color: #fff;
-    text-decoration: none;
+
+nav#aba2{
+    transform: translateX(100%);
+    position: absolute;
+    top: 3px;
+    right: 0px;
+    width: 25%;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #222222;
+    border: 1px solid #fff;
+    transition: 1s;
+}
+#aba2:hover{
+    display: inline;
+    transform: translateX(0%);
+    width: 25%;
+    background-color: #222222;
+    align-items: center;
+    border: 1px solid #fff;
+    box-shadow: 3px 3px 5px #0e0e0e;
+    transition: 1s;
+}
+img#iconem2{
+    position: fixed;
+    width: 24px;
+    height: 24px;
+    top: 20px;
+    right: 39vh;
 }
 
 #lupa{
+    color: #cacaca;
     border-radius: 5px;
     border: 1px #2b2b2b;
     position: relative;
     left: 67vw;
-    top: 0vw;
-}
-#loguin{
-    color: wheat;
-    width: 50px;
-    height: 35px;
-    position: relative;
-    left: 87%;
-    top: -3vh;
-    background-color: #E20813;
-    padding: 7px 17px;
-    font-weight: 400;
-    border-radius: 2px;
+    top: -0.2vw;
 }
 #logo{
     font-size: medium;
@@ -81,7 +97,7 @@ img#iconem{
     height: 35px;
     position: relative;
     left: 47%;
-    top: 4vh;
+    top: 3vh;
 }
 li.header{
     list-style: none;
@@ -92,7 +108,31 @@ li.header{
 }
 /*main*/
 
-
+.plataforma{
+    background-color: #2b2b2b;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+}
+.imgplat{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+.plataforma:hover {
+    background-color: #3f3f3f;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+}
+.plataforma:hover >img.imgplat{
+    width: 55px;
+    height: 55px;
+    margin: 7px;
+}
 
 div.generos{
     display: inline-block;

@@ -90,7 +90,8 @@ li.header{
     background-color: #2b2b2b;
     width: 70px;
     height: 70px;
-    margin: 5px;
+    margin-top: 20px;
+    margin: 10px;
     border: 1px solid #fff;
     border-radius: 50px;
     box-shadow: #000000 4px 3px 5px;
@@ -99,6 +100,7 @@ li.header{
     width: 50px;
     height: 50px;
     margin: 10px;
+    aling-item: center;
 }
 .plataforma:hover {
     background-color: #3f3f3f;
@@ -114,35 +116,5 @@ li.header{
     align-items: center;
     margin: 7px;
 }
-div.generos{
-    display: inline-block;
-    background-size: cover;
-    height: 180px;
-    margin: 1vh;
-    width: 30.5vw;
-    border-radius: 5px;
-}
-div.A{
-    display: inline-flex;
-    margin: 1vw;
-}
-img.cartas{
-    width: 30.5vw;
-    height: 65vh;
-    border-radius: 5px;
-}
-a.categoria{
-    text-decoration: none;
-    color: #fff;
-    font-family: Helvetica, Arial, sans-serif;
-}
-h1.gen{
-    color: #fff; 
-    text-align: center;
-    font-size: 30px;
-}
-h1{
-    margin-left: 15px;
-    font-size: 4vh;
-}
+
 /*footer*/

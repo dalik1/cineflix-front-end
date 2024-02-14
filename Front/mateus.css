@@ -116,5 +116,10 @@ li.header{
     align-items: center;
     margin: 7px;
 }
-
+img.film{
+    display: flex-inline;
+    justify-content: around ;
+    width: 30%;
+    border-radius: 7px;
+}
 /*footer*/

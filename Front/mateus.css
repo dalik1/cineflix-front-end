@@ -120,6 +120,7 @@ img.film{
     display: flex-inline;
     justify-content: around ;
     width: 30%;
+    margin: 1%;
     border-radius: 7px;
 }
 /*footer*/
